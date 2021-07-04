@@ -8,14 +8,17 @@ h1{
 .red{
     color: rgb(216, 146, 54);
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 10%;
+   
 }
 .first{
     width: 50%;
     padding-left: 5%;
+   
 }
+            
 .first img{
     width: 80%;
 }
@@ -38,3 +41,32 @@ section{
     background-position:right ;
 
 }
+    .experience{
+        width: 50%;
+        margin-left: 5%;
+        margin-right: 1%;
+        border-radius: 10px;
+        padding-left: 5%;
+         box-shadow: 10px 5px 40px gray ;
+        
+    }
+   #web-dev{
+       border-left: 7px solid;
+       border-image: linear-gradient(blue,cyan);
+       border-image-slice: 1;
+   }
+   #bank{ 
+       border-left: 7px solid;
+    border-image: linear-gradient(salmon,orange);
+    border-image-slice: 1;
+}
+ footer p{
+     text-align: center;
+ }
+   
+    
+
+
+         
+   
+    
